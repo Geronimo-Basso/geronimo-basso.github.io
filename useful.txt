@@ -1,2 +1,12 @@
 ----------------- Create website -----------------
 1. https://blog.hubspot.com/website/how-to-code-a-website
+
+----------------- HTML -----------------
+
+----------------- CSS -----------------
+
+----------------- Javascript -----------------
+
+----------------- Design -----------------
+1. https://www.figma.com/
+
