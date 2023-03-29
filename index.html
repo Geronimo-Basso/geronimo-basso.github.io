@@ -20,7 +20,19 @@
         <img id="dog-with-pickaxe" alt="Doggy meme" src="design/photos/doggy.png">
         <img id="dog-with-helmet" alt="Doggy meme 2" src="design/photos/doggy.jpg">
         <h2> Give some cookies to Gerónimo if you want the site to be ready faster. </h2>
+
+        <!-- The main method for adding JavaScript to our page is with the script tag which wraps around our program.
+        This tells the browser that we are adding JavaScript to our page so our script isn't treated like more HTML. You can see this implemented below. -->
+        <script>
+            // Identifying our image
+            const smiley = document.querySelector("#dog-with-pickaxe");
+            // Adding reaction when image is clicked
+            smiley.addEventListener("click", () => {
+                alert(`Doggy says "Welcome!"`);
+            });
+        </script>
     </div>
+
 </body>
 
 </html>
