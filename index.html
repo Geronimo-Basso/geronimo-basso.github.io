@@ -4,7 +4,6 @@
 
 <head> <!--An opening tag to contain all the non-visible information about our web page, also known as metadata.-->
     <link rel="stylesheet" href="assets/css/style.css"> <!--To connect to the stylesheet-->
-
     <meta charset="UTF-8">
     <!--The meta tag tells all browsers and devices to treat pixel measurements the same.
     In other words, mobile devices and browsers will shrink your page to the same scale as it would display on a desktop.
@@ -13,26 +12,30 @@
     <title>Gerónimo Basso</title>
 </head>
 <body> <!--An opening tag to contain all the visible content on our web page-->
-    <div>
-        <h1> Site currently under construction, it's not as easy as it looks. </h1>
-        <!-- "src" is an attribute for the image source that tells the browser which image to display.
-        "alt" is an attribute for alternate text that tells the browser what text to display if the image can't be rendered. -->
-        <img id="dog-with-pickaxe" alt="Doggy meme" src="assets/photos/doggy.png">
-        <img id="dog-with-helmet" alt="Doggy meme 2" src="assets/photos/doggy.jpg">
-        <h2> Give some cookies to Gerónimo if you want the site to be ready faster. </h2>
 
-        <!-- The main method for adding JavaScript to our page is with the script tag which wraps around our program.
-        This tells the browser that we are adding JavaScript to our page so our script isn't treated like more HTML. You can see this implemented below. -->
-        <script>
-            // Identifying our image
-            const smiley = document.querySelector("#dog-with-pickaxe");
-            // Adding reaction when image is clicked
-            smiley.addEventListener("click", () => {
-                alert(`Doggy says "Welcome!"`);
-            });
-        </script>
-    </div>
-
+    <header id="header">
+            <div>
+                <div id="header-left-part">
+                    <h1>Gerónimo Basso</h1>
+                </div>
+                <div id="header-right-part">
+                    <nav>
+                        <ul>
+                            <li class="active"> Home </li>
+                            <li> Project </li>
+                            <li> About </li>
+                            <li> Contact </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <main>
+        <!-- main content here -->
+    </main>
+    <footer>
+        <!-- footer content here -->
+    </footer>
 </body>
 
 </html>
