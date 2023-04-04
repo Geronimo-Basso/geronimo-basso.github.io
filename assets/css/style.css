@@ -74,6 +74,7 @@ header{
     line-height: 55px;
     /* identical to box height */
 
+    text-decoration-line: underline;
 
     color: #00160A;
 
@@ -149,7 +150,6 @@ header{
     line-height: 55px;
     /* identical to box height */
 
-    text-decoration-line: underline;
 
     color: #00160A;
 
@@ -159,4 +159,9 @@ header{
     flex: none;
     order: 3;
     flex-grow: 0;
+}
+
+.anchor-header-section{
+    color: #00160A; /* set the color to black */
+    text-decoration: none; /* remove the underline */
 }
