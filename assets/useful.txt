@@ -2,7 +2,7 @@
 1. https://blog.hubspot.com/website/how-to-code-a-website
 
 ----------------- HTML -----------------
-
+1. Course in w3 school.
 ----------------- CSS -----------------
 
 ----------------- Javascript -----------------
