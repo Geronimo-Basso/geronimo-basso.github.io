@@ -198,6 +198,22 @@ header{
 
 /*---------------------------------- Footer ----------------------- */
 
-footer {
 
+/* Footer styles */
+footer {
+    background-color: #171717;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-content{
+}
+
+#copyright{
+    color: #ffffff; /* set the color to black */
+    text-decoration: none; /* remove the underline */
 }
