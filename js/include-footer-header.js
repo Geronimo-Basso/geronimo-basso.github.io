@@ -1,16 +1,23 @@
-function insertFooter() {
-    // create a new element to hold the footer HTML code
-    var footer = document.createElement("footer");
-    footer.innerHTML = '<div id="footer-div-copyright"> \
-                           <p id="footer-content"> \
-                               © 2023 <a href="https://geronimo-basso.github.io/" id="copyright"> \
-                               Gerónimo Basso Sosa</a> \
-                           </p> \
-                       </div>';
-
-    // find the element where you want to insert the footer
-    var container = document.getElementsByTagName("body")[0];
-
-    // insert the footer HTML code into the container element
-    container.appendChild(footer);
+function insertHeader() {
+    fetch("../src/views/header.html")
+        .then(response => response.text())
+        .then(data => {
+            var header = document.createElement("header");
+            header.innerHTML = data;
+            document.body.prepend(header);
+        });
 }
+
+insertHeader();
+
+function insertFooter() {
+    fetch("../src/views/footer.html")
+        .then(response => response.text())
+        .then(data => {
+            var footer = document.createElement("footer");
+            footer.innerHTML = data;
+            document.body.prepend(footer);
+        });
+}
+
+insertFooter();
