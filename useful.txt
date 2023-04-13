@@ -2,7 +2,7 @@
 1. https://blog.hubspot.com/website/how-to-code-a-website
 
 ----------------- HTML -----------------
-1. Course in w3 school.
+
 ----------------- CSS -----------------
 
 ----------------- Javascript -----------------
@@ -10,5 +10,3 @@
 ----------------- Design -----------------
 1. https://www.figma.com/
 
-------------- Future desgins ideas -------------
-1. https://github.com/
