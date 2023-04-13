@@ -10,3 +10,5 @@
 ----------------- Design -----------------
 1. https://www.figma.com/
 
+------------- Future desgins ideas -------------
+1. https://github.com/
