@@ -8,8 +8,6 @@ function insertHeader() {
         });
 }
 
-insertHeader();
-
 function insertFooter() {
     fetch("../src/views/footer.html")
         .then(response => response.text())
@@ -19,5 +17,3 @@ function insertFooter() {
             document.body.prepend(footer);
         });
 }
-
-insertFooter();
