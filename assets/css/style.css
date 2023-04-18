@@ -1,3 +1,5 @@
+/*---------------------------------- Fonts  ----------------------- */
+
 h1{
     color:#ffffff;
 }
@@ -16,7 +18,9 @@ p {
 body{
     background-color: #0D1117;
 }
+
 /*---------------------------------- Header ----------------------- */
+
 header{
     display: flex;
     flex-direction: row;
@@ -27,8 +31,6 @@ header{
 
     height: 117px;
 }
-
-
 
 #header-left-part{
     /* Gerónimo Basso */
@@ -44,9 +46,7 @@ header{
     line-height: 79px;
     /* identical to box height */
 
-
     color: #FFFFFF;
-
 
     /* Inside auto layout */
 
@@ -65,7 +65,6 @@ header{
 
     width: 741px;
     height: 55px;
-
 
     /* Inside auto layout */
 
@@ -92,7 +91,6 @@ header{
 
     color: #FFFFFF;
 
-
     /* Inside auto layout */
 
     flex: none;
@@ -114,9 +112,7 @@ header{
     line-height: 55px;
     /* identical to box height */
 
-
     color: #FFFFFF;
-
 
     /* Inside auto layout */
 
@@ -128,7 +124,6 @@ header{
 #header-section-3{
     /* About */
 
-
     width: 126px;
     height: 55px;
 
@@ -139,9 +134,7 @@ header{
     line-height: 55px;
     /* identical to box height */
 
-
     color: #FFFFFF;
-
 
     /* Inside auto layout */
 
@@ -164,9 +157,7 @@ header{
     line-height: 55px;
     /* identical to box height */
 
-
     color: #FFFFFF;
-
 
     /* Inside auto layout */
 
@@ -224,10 +215,10 @@ header{
 
 
 /*---------------------------------- Contact ----------------------- */
+
 #contact{
     color: #FFFFFF;
     text-align: center;
-
 }
 
 #email-address{
@@ -237,8 +228,6 @@ header{
 
 /*---------------------------------- Footer ----------------------- */
 
-
-/* Footer styles */
 footer {
     background-color: #171717;
     color: #ffffff;
