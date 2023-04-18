@@ -1,3 +1,18 @@
+h1{
+    color:#ffffff;
+}
+
+p {
+    color:#ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    line-height: 35px;
+    /* or 159% */
+}
+
 body{
     background-color: #0D1117;
 }
@@ -165,7 +180,7 @@ header{
     text-decoration: none; /* remove the underline */
 }
 
-/*---------------------------------- Main ----------------------- */
+/*---------------------------------- Home ----------------------- */
 #image-main{
     width: 321px;
     height: 434px;
@@ -212,6 +227,7 @@ header{
 #contact{
     color: #FFFFFF;
     text-align: center;
+
 }
 
 #email-address{
@@ -232,17 +248,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-/*footer {*/
-/*    position: fixed;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    width: 100%;*/
-/*    background-color: #f1f1f1;*/
-/*    color: #333;*/
-/*    text-align: center;*/
-/*    padding: 20px;*/
-/*}*/
 
 #footer-content{
 }
