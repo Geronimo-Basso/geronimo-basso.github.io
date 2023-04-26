@@ -1,7 +1,9 @@
-/*---------------------------------- Fonts  ----------------------- */
+/*---------------------------------- Fonts ----------------------- */
 
 h1{
     color:#ffffff;
+    text-decoration: none; /* remove the underline */
+
 }
 
 p {
@@ -10,9 +12,13 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 26px;
     line-height: 35px;
     /* or 159% */
+}
+
+a {
+    color: #FFFFFF; /* set the color to black */
+    text-decoration: none; /* remove the underline */
 }
 
 body{
@@ -46,8 +52,6 @@ header{
     line-height: 79px;
     /* identical to box height */
 
-    color: #FFFFFF;
-
     /* Inside auto layout */
 
     flex: none;
@@ -73,10 +77,7 @@ header{
     flex-grow: 0;
 }
 
-#header-section-1{
-    /* Home */
-
-
+.header-h1-format{
     width: 127px;
     height: 55px;
 
@@ -85,93 +86,14 @@ header{
     font-weight: 400;
     font-size: 47px;
     line-height: 55px;
-    /* identical to box height */
-
-    text-decoration-line: underline;
-
-    color: #FFFFFF;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
-#header-section-2{
-    /* Projects */
-
-
-    width: 173px;
-    height: 55px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 55px;
-    /* identical to box height */
-
-    color: #FFFFFF;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-#header-section-3{
-    /* About */
-
-    width: 126px;
-    height: 55px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 55px;
-    /* identical to box height */
-
-    color: #FFFFFF;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-#header-section-4{
-    /* Contact */
-
-
-    width: 165px;
-    height: 55px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 55px;
-    /* identical to box height */
-
-    color: #FFFFFF;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-}
-
-.anchor-header-section{
-    color: #FFFFFF; /* set the color to black */
-    text-decoration: none; /* remove the underline */
-}
-
 /*---------------------------------- Home ----------------------- */
+
 #text-main{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -183,13 +105,11 @@ header{
 
 /*---------------------------------- Projects ----------------------- */
 
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 50px;
     gap: 50px 100px;
-    color: #FFFFFF;
 
 }
 
@@ -200,31 +120,16 @@ header{
 /*---------------------------------- Contact ----------------------- */
 
 #contact{
-    color: #FFFFFF;
     text-align: center;
-}
-
-#email-address{
-    color: #FFFFFF; /* set the color to black */
-    text-decoration-line: underline;
 }
 
 /*---------------------------------- Footer ----------------------- */
 
 footer {
     background-color: #171717;
-    color: #ffffff;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-#footer-content{
-}
-
-#copyright{
-    color: #ffffff; /* set the color to black */
-    text-decoration: none; /* remove the underline */
 }
