@@ -12,6 +12,16 @@ h1{
 
 }
 
+h2{
+    color:#ffffff;
+    text-decoration: none; /* remove the underline */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+
 p {
     color:#ffffff;
     font-family: 'Roboto';
@@ -97,9 +107,7 @@ header{
 }
 
 hr{
-
     width: 75%;
-
 }
 
 /*---------------------------------- Home ----------------------- */
@@ -107,18 +115,22 @@ hr{
 #text-main{
     margin-top: 100px;
     margin-bottom: 100px;
-
     font-size: 47px;
     line-height: 55px;
 }
 
 /*---------------------------------- Projects ----------------------- */
 
+/*.grid-container-h2{*/
+/*    text-align: left;*/
+/*    margin-left: 300px;*/
+/*}*/
+
 .grid-container {
     display: grid;
     grid-template-columns: auto;
     padding: 50px;
-    gap: 50px 100px;
+    gap: 100px 100px;
 
 }
 
