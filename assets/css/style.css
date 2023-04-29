@@ -1,5 +1,46 @@
+/*---------------------------------- General ----------------------- */
+
+body{
+    background-color: #0D1117;
+    text-align: center;
+
+}
+
+h1{
+    color:#ffffff;
+    text-decoration: none; /* remove the underline */
+
+}
+
+h2{
+    color:#ffffff;
+    text-decoration: none; /* remove the underline */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+p {
+    color:#ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+
+    /* or 159% */
+}
+
+a {
+    color: #FFFFFF; /* set the color to black */
+    text-decoration: none; /* remove the underline */
+
+}
 
 /*---------------------------------- Header ----------------------- */
+
 header{
     display: flex;
     flex-direction: row;
@@ -10,8 +51,6 @@ header{
 
     height: 117px;
 }
-
-
 
 #header-left-part{
     /* Gerónimo Basso */
@@ -26,10 +65,6 @@ header{
     font-size: 30px;
     line-height: 79px;
     /* identical to box height */
-
-
-    color: #00160A;
-
 
     /* Inside auto layout */
 
@@ -49,7 +84,6 @@ header{
     width: 741px;
     height: 55px;
 
-
     /* Inside auto layout */
 
     flex: none;
@@ -57,10 +91,7 @@ header{
     flex-grow: 0;
 }
 
-#header-section-1{
-    /* Home */
-
-
+.header-h1-format{
     width: 127px;
     height: 55px;
 
@@ -69,167 +100,45 @@ header{
     font-weight: 400;
     font-size: 47px;
     line-height: 55px;
-    /* identical to box height */
-
-    text-decoration-line: underline;
-
-    color: #00160A;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
-#header-section-2{
-    /* Projects */
-
-
-    width: 173px;
-    height: 55px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 55px;
-    /* identical to box height */
-
-
-    color: #00160A;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+hr{
+    width: 75%;
 }
 
-#header-section-3{
-    /* About */
-
-
-    width: 126px;
-    height: 55px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 55px;
-    /* identical to box height */
-
-
-    color: #00160A;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-#header-section-4{
-    /* Contact */
-
-
-    width: 165px;
-    height: 55px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 55px;
-    /* identical to box height */
-
-
-    color: #00160A;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-}
-
-.anchor-header-section{
-    color: #00160A; /* set the color to black */
-    text-decoration: none; /* remove the underline */
-}
-
-/*---------------------------------- Main ----------------------- */
-#image-main{
-    width: 321px;
-    height: 434px;
-    left: 109px;
-    top: 174px;
-    border-radius: 100px;
-}
+/*---------------------------------- Home ----------------------- */
 
 #text-main{
-    position: absolute;
-    width: 811px;
-    height: 273px;
-    left: 480px;
-    top: 195px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 100px;
     font-size: 47px;
     line-height: 55px;
-
-    color: #00160A;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*---------------------------------- Projects ----------------------- */
 
+/*.grid-container-h2{*/
+/*    text-align: left;*/
+/*    margin-left: 300px;*/
+/*}*/
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     padding: 50px;
-    gap: 50px 100px;
+    gap: 100px 100px;
 
 }
 
 /*---------------------------------- Footer ----------------------- */
-
-
-/* Footer styles */
 footer {
     background-color: #171717;
-    color: #fff;
-    text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-/*footer {*/
-/*    position: fixed;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    width: 100%;*/
-/*    background-color: #f1f1f1;*/
-/*    color: #333;*/
-/*    text-align: center;*/
-/*    padding: 20px;*/
-/*}*/
-
-#footer-content{
-}
-
-#copyright{
-    color: #ffffff; /* set the color to black */
-    text-decoration: none; /* remove the underline */
 }
