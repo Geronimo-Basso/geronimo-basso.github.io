@@ -43,74 +43,17 @@ a {
 }
 
 /*---------------------------------- Header ----------------------- */
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 242px;
-
-    height: 117px;
+#header-menu-image{
+    background: transparent;
+    height: 24px;
+    width: 24px;
 }
 
-#header-left-part{
-    /* Gerónimo Basso */
-
-
-    width: 438px;
-    height: 170px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 79px;
-    /* identical to box height */
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-#header-right-part{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 50px;
-
-    width: 741px;
-    height: 55px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.header-h1-format{
-    width: 127px;
-    height: 55px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 55px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-hr{
-    width: 75%;
+#header-button-main{
+    background: transparent;
+    height: 24px;
+    width: 24px;
+    border: none;
 }
 
 /*---------------------------------- Home ----------------------- */
