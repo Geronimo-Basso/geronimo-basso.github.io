@@ -1,5 +1,11 @@
 /*---------------------------------- General ----------------------- */
 
+*{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #ffffff;
+}
+
 body{
     background-color: #0D1117;
     background-image: url("/../images/giphy.gif");
@@ -14,8 +20,6 @@ h1{
 h2{
     color:#ffffff;
     text-decoration: none; /* remove the underline */
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 35px;
@@ -23,8 +27,6 @@ h2{
 
 p {
     color:#ffffff;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 35px;
@@ -55,8 +57,6 @@ a {
 
 
 #header-span-name{
-    font-family: 'Roboto';
-    font-style: normal;
     position: relative;
     right: 150px;
     color: #FFFFFF;
