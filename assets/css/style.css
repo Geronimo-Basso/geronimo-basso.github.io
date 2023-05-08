@@ -4,12 +4,12 @@
     font-family: 'Roboto';
     font-style: normal;
     color: #ffffff;
+    text-align: center;
+
 }
 
 body{
     background-color: #0D1117;
-    background-image: url("/../images/giphy.gif");
-    text-align: center;
 }
 
 h1{
@@ -114,10 +114,8 @@ button{
 }
 
 /*---------------------------------- Footer ----------------------- */
-footer {
+footer{
     background-color: #171717;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
