@@ -39,6 +39,10 @@ a {
     text-decoration: none; /* remove the underline */
 }
 
+hr{
+    margin: 50px;
+}
+
 /*---------------------------------- Header ----------------------- */
 #header-button-main{
     background: transparent;
@@ -63,26 +67,11 @@ a {
     font-size: 21px;
 }
 
-/*---------------------------------- Home ----------------------- */
+/*---------------------------------- Home section ----------------------- */
 
-#text-main{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    font-size: 40px;
-    line-height: 55px;
-    text-align: left;
-    margin: 35px;
-    padding: 25px;
-}
-
-button{
-    width: 150px;
-    height: 49px;
-    background: #9333FF;
-    color: #ffffff;
-    border-radius: 10px;
-    font-size: 17px;
-    border: none;
+#home-section#socials{
+    width: 40px;
+    height: 40px;
 }
 
 /*---------------------------------- Projects section main ----------------------- */
@@ -91,23 +80,26 @@ button{
     display: grid;
     grid-template-columns: auto;
     padding: 50px;
-    gap: 100px 100px;
+    gap: 50px 50px;
 
 }
 
-/*---------------------------------- Projects file ----------------------- */
-.button{
+.button-container{
+    display: flex;
+}
+
+.button-container button{
+    width: 150px;
+    height: 49px;
+    background: #9333FF;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 17px;
     border: none;
-    color: white;
-    background-color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    align-content: center;
 }
+
+
 
 .button:hover{
     background-color: lightskyblue;
