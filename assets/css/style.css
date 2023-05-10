@@ -1,11 +1,9 @@
 /*---------------------------------- General ----------------------- */
 
-*{
+html{
     font-family: 'Roboto';
     font-style: normal;
     color: #ffffff;
-    text-align: center;
-
 }
 
 body{
@@ -18,7 +16,6 @@ h1{
 }
 
 h2{
-    color:#ffffff;
     text-decoration: none; /* remove the underline */
     font-weight: 400;
     font-size: 22px;
@@ -26,7 +23,6 @@ h2{
 }
 
 p {
-    color:#ffffff;
     font-weight: 400;
     font-size: 22px;
     line-height: 35px;
@@ -44,27 +40,35 @@ hr{
 }
 
 /*---------------------------------- Header ----------------------- */
-#header-button-main{
-    background: transparent;
-    height: 34px;
-    width: 34px;
-    border: none;
-    position: relative;
-    left: 150px;
+
+.header{
+    display: inline;
 }
 
-#header-menu-image{
-    background: transparent;
-    height: 34px;
-    width: 34px;
+.header-name{
+    display: inline;
 }
 
 
-#header-span-name{
-    position: relative;
-    right: 150px;
-    color: #FFFFFF;
-    font-size: 21px;
+.header-menu{
+    display: inline;
+}
+
+.header-menu a{
+    display: inline;
+}
+
+.header-menu span{
+    display: block;
+    background-color: white;
+    width: 26px;
+    height: 2px;
+    margin: 6px;
+}
+
+
+.header-links{
+    display: inline;
 }
 
 /*---------------------------------- Home section ----------------------- */
