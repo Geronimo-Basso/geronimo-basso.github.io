@@ -4,10 +4,10 @@ html{
     font-family: 'Roboto';
     font-style: normal;
     color: #ffffff;
-}
-
-body{
+    margin: 0;
+    padding: 0;
     background-color: #0D1117;
+    text-align: center;
 }
 
 h1{
@@ -42,20 +42,27 @@ hr{
 /*---------------------------------- Header ----------------------- */
 
 .header{
-    display: inline;
+    background-color: #000000;
+    margin: auto;
+    height: 50px;
 }
 
-.header-name{
-    display: inline;
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
 }
 
+.header.sticky{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+}
 
 .header-menu{
-    display: inline;
-}
-
-.header-menu a{
-    display: inline;
+    display: inline-block;
 }
 
 .header-menu span{
@@ -66,11 +73,15 @@ hr{
     margin: 6px;
 }
 
-
-.header-links{
-    display: inline;
+.header-name-left{
+    float: left;
+    margin-left: 50px;
 }
 
+.header-menu-right{
+    float: right;
+    margin-right: 50px;
+}
 /*---------------------------------- Home section ----------------------- */
 
 #home-section#socials{
