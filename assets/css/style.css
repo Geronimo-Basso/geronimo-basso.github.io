@@ -45,6 +45,7 @@ hr{
     background-color: #000000;
     margin: auto;
     height: 50px;
+    font-size: 24px;
 }
 
 .header-div{
@@ -58,11 +59,17 @@ hr{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+}
 
+.header-name-left{
+    float: left;
+    margin-left: 50px;
 }
 
 .header-menu{
     display: inline-block;
+    float: right;
+    margin-right: 50px;
 }
 
 .header-menu span{
@@ -71,16 +78,6 @@ hr{
     width: 26px;
     height: 2px;
     margin: 6px;
-}
-
-.header-name-left{
-    float: left;
-    margin-left: 50px;
-}
-
-.header-menu-right{
-    float: right;
-    margin-right: 50px;
 }
 /*---------------------------------- Home section ----------------------- */
 
