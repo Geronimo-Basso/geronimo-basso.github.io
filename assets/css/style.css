@@ -86,7 +86,7 @@ hr{
     height: 40px;
 }
 
-/*---------------------------------- Projects section main ----------------------- */
+/*---------------------------------- Projects section ----------------------- */
 
 .grid-container {
     display: grid;
@@ -111,11 +111,19 @@ hr{
     align-content: center;
 }
 
+.button-left{
 
+    float: left;
+    margin-left: 225px;
+    margin-right: 10px;
 
-.button:hover{
-    background-color: lightskyblue;
 }
+
+.button-right{
+    float: right;
+    margin-right: 150px;
+}
+
 
 /*---------------------------------- Footer ----------------------- */
 footer{
