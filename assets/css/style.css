@@ -1,17 +1,25 @@
 /*---------------------------------- General ----------------------- */
+:root {
+    --background-header: #000000;
+    --background-body: #0D1117;
+    --elements-color: #ffffff;
+    --text-color: #ffffff;
+    --button-color: #9333FF;
+  }
+
 
 html{
     font-family: 'Roboto';
     font-style: normal;
-    color: #ffffff;
+    color: var(--text-color);
     margin: 0;
     padding: 0;
-    background-color: #0D1117;
+    background-color: var(--background-body);
     text-align: center;
 }
 
 h1{
-    color:#ffffff;
+    color:var(--text-color);
     text-decoration: none; /* remove the underline */
 }
 
@@ -31,7 +39,7 @@ p {
 }
 
 a {
-    color: #FFFFFF; /* set the color to black */
+    color: var(--text-color); /* set the color to black */
     text-decoration: none; /* remove the underline */
 }
 
@@ -42,7 +50,7 @@ hr{
 /*---------------------------------- Header ----------------------- */
 
 .header{
-    background-color: #000000;
+    background-color: var(--background-header);
     margin: auto;
     height: 50px;
     font-size: 24px;
@@ -74,7 +82,7 @@ hr{
 
 .header-menu span{
     display: block;
-    background-color: white;
+    background-color: var(--elements-color);
     width: 26px;
     height: 2px;
     margin: 6px;
@@ -103,8 +111,8 @@ hr{
 .button-container button{
     width: 150px;
     height: 49px;
-    background: #9333FF;
-    color: #ffffff;
+    background: var(--button-color);
+    color: var(--text-color);
     border-radius: 10px;
     font-size: 17px;
     border: none;
@@ -127,7 +135,7 @@ hr{
 
 /*---------------------------------- Footer ----------------------- */
 footer{
-    background-color: #171717;
+    background-color: var(--background-body);
     padding: 10px;
     width: 100%;
 }
