@@ -5,8 +5,7 @@
     --elements-color: #ffffff;
     --text-color: #ffffff;
     --button-color: #9333FF;
-  }
-
+}
 
 html{
     font-family: 'Roboto';
@@ -54,6 +53,7 @@ hr{
     margin: auto;
     height: 50px;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .header-div{
@@ -78,6 +78,11 @@ hr{
     display: inline-block;
     float: right;
     margin-right: 50px;
+}
+
+.header-links a{
+    display: inline-block;
+    margin-right: 30px;
 }
 
 .header-menu span{
@@ -106,6 +111,10 @@ hr{
 
 .button-container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 75px;
+
 }
 
 .button-container button{
@@ -120,16 +129,12 @@ hr{
 }
 
 .button-left{
-
     float: left;
-    margin-left: 225px;
-    margin-right: 10px;
-
 }
 
 .button-right{
     float: right;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 
@@ -139,3 +144,23 @@ footer{
     padding: 10px;
     width: 100%;
 }
+
+/*---------------------------------- Media queries ----------------------- */
+  
+@media screen and (max-width: 750px) {
+
+    .header-links {
+        display: none;    
+    }
+
+}
+
+@media screen and (min-width: 750px) {
+
+    .header-menu {
+        display: none;    
+    }
+    
+}
+  
+  
