@@ -5,6 +5,7 @@
     --elements-color: #ffffff;
     --text-color: #ffffff;
     --button-color: #9333FF;
+    --svg-color: #ffffff;
 }
 
 html{
@@ -50,6 +51,7 @@ hr{
 
 .header{
     background-color: var(--background-header);
+    color: var(--text-color);
     margin: auto;
     height: 50px;
     font-size: 24px;
@@ -70,6 +72,7 @@ hr{
 }
 
 .header-name-left{
+    color: var(--text-color);
     float: left;
     margin-left: 50px;
 }
@@ -81,6 +84,7 @@ hr{
 }
 
 .header-links a{
+    color: var(--text-color);
     display: inline-block;
     margin-right: 30px;
 }
@@ -126,6 +130,8 @@ hr{
     font-size: 17px;
     border: none;
     align-content: center;
+    text-align: center;
+    display: inline-flex;
 }
 
 .button-left{
@@ -164,3 +170,6 @@ footer{
 }
   
   
+svg{
+    fill: var(--svg-color);
+}
