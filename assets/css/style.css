@@ -121,33 +121,19 @@ hr{
 .button-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-left: 75px;
-
 }
 
 .button-container button{
-    width: 150px;
-    height: 49px;
+    margin: 20px;
+    width: 100px;
+    height: 60px;
     background: var(--button-color);
     color: var(--text-color);
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 22px;
     border: none;
-    align-content: center;
-    text-align: center;
-    display: inline-flex;
+    flex:1;
 }
-
-.button-left{
-    float: left;
-}
-
-.button-right{
-    float: right;
-    margin-right: 100px;
-}
-
 
 /*---------------------------------- Footer ----------------------- */
 footer{
