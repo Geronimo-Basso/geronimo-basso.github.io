@@ -1,144 +1,181 @@
 /*---------------------------------- General ----------------------- */
+:root {
+    --background-header: #000000;
+    --background-body: #0D1117;
+    --elements-color: #ffffff;
+    --text-color: #ffffff;
+    --button-color: #9333FF;
+    --svg-color: #ffffff;
+}
 
-body{
-    background-color: #0D1117;
+html{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-body);
     text-align: center;
-
 }
 
 h1{
-    color:#ffffff;
+    color:var(--text-color);
     text-decoration: none; /* remove the underline */
-
+    font-size: 55px;
 }
 
 h2{
-    color:#ffffff;
     text-decoration: none; /* remove the underline */
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 35px;
 }
 
 p {
-    color:#ffffff;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 35px;
-
-    /* or 159% */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 a {
-    color: #FFFFFF; /* set the color to black */
+    color: var(--text-color); /* set the color to black */
     text-decoration: none; /* remove the underline */
+}
 
+hr{
+    margin: 25px;
 }
 
 /*---------------------------------- Header ----------------------- */
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 242px;
-
-    height: 117px;
-}
-
-#header-left-part{
-    /* Gerónimo Basso */
-
-
-    width: 438px;
-    height: 170px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
+.header{
+    background-color: var(--background-header);
+    color: var(--text-color);
+    margin: auto;
+    height: 100px;
     font-size: 30px;
-    line-height: 79px;
-    /* identical to box height */
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    font-weight: bold;
 }
 
-#header-right-part{
+.header-div{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    gap: 50px;
-
-    width: 741px;
-    height: 55px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    height: 100px;
 }
 
-.header-h1-format{
-    width: 127px;
-    height: 55px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 55px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.header.sticky{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
-hr{
-    width: 75%;
+.header-name-left{
+    color: var(--text-color);
+    float: left;
+    margin-left: 50px;
 }
 
-/*---------------------------------- Home ----------------------- */
-
-#text-main{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    font-size: 47px;
-    line-height: 55px;
+.header-menu{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
 }
 
-/*---------------------------------- Projects ----------------------- */
+.header-links a{
+    color: var(--text-color);
+    display: inline-block;
+    margin-right: 30px;
+}
 
-/*.grid-container-h2{*/
-/*    text-align: left;*/
-/*    margin-left: 300px;*/
-/*}*/
+.header-menu span{
+    display: block;
+    background-color: var(--elements-color);
+    width: 26px;
+    height: 2px;
+    margin: 6px;
+}
+/*---------------------------------- Home section ----------------------- */
+
+
+/*---------------------------------- Projects section ----------------------- */
 
 .grid-container {
     display: grid;
     grid-template-columns: auto;
     padding: 50px;
-    gap: 100px 100px;
+    gap: 50px 50px;
 
 }
 
+.grid-container h1{
+    font-size: 60px;
+}
+
+.grid-container h2{
+    font-size: 20px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button{
+    margin: 20px;
+    width: 100px;
+    height: 60px;
+    background: var(--button-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    font-size: 22px;
+    border: none;
+    flex:1;
+}
+
 /*---------------------------------- Footer ----------------------- */
-footer {
-    background-color: #171717;
+footer{
+    background-color: var(--background-body);
     padding: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+}
+
+
+footer div.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 30px;
+}
+
+footer div span{
+    color: var(--text-color);
+    font-size: 25px;
+}
+
+
+/*---------------------------------- Media queries ----------------------- */
+  
+@media screen and (max-width: 750px) {
+
+    .header-links {
+        display: none;    
+    }
+
+}
+
+@media screen and (min-width: 750px) {
+
+    .header-menu {
+        display: none;    
+    }
+    
+}
+  
+  
+svg{
+    fill: var(--svg-color);
 }
