@@ -35,8 +35,8 @@ p {
     font-weight: 400;
     font-size: 22px;
     line-height: 35px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 a {
@@ -98,6 +98,10 @@ hr{
     margin: 6px;
 }
 /*---------------------------------- Home section ----------------------- */
+
+start{
+    margin-top: 1000px;
+}
 
 
 /*---------------------------------- Projects section ----------------------- */
@@ -164,7 +168,7 @@ footer div span{
 
 /*---------------------------------- Media queries ----------------------- */
   
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 899px) {
 
     .header-links {
         display: none;    
@@ -172,7 +176,7 @@ footer div span{
 
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 900px) {
 
     .header-menu {
         display: none;    
