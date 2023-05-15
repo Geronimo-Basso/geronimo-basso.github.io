@@ -47,6 +47,10 @@ a {
 hr{
     margin: 25px;
 }
+  
+svg{
+    fill: var(--svg-color);
+}
 
 /*---------------------------------- Header ----------------------- */
 
@@ -97,7 +101,26 @@ hr{
     height: 2px;
     margin: 6px;
 }
-/*---------------------------------- Home section ----------------------- */
+/*---------------------------------- Main section ----------------------- */
+
+main div.left{
+    margin: 30px;
+}
+
+main div button{
+    font-size: 20px;
+}
+  
+#darkbutton{
+    color:white;
+    background-color: black;  
+}
+  
+#lightbutton{
+    color:black;
+    background-color: white;
+}
+
 
 start{
     margin-top: 1000px;
@@ -132,12 +155,17 @@ start{
     width: 100px;
     height: 60px;
     background: var(--button-color);
-    color: var(--text-color);
+    color: white;
     border-radius: 10px;
     font-size: 22px;
     border: none;
     flex:1;
 }
+.button-container button svg{
+    fill: white;
+}
+
+
 
 /*---------------------------------- Footer ----------------------- */
 footer{
@@ -182,9 +210,4 @@ footer div span{
         display: none;    
     }
     
-}
-  
-  
-svg{
-    fill: var(--svg-color);
 }
