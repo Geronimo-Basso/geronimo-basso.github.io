@@ -151,9 +151,14 @@ footer div.last{
     margin: 30px;
 }
 
+footer div div.email{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
 footer div span{
     color: var(--text-color);
-    font-size: 25px;
+    font-size: 22px;
 }
 
 
