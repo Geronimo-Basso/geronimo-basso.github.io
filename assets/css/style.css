@@ -132,9 +132,6 @@ start{
 .grid-container {
     display: grid;
     grid-template-columns: auto;
-    padding: 50px;
-    gap: 50px 50px;
-
 }
 
 .grid-container h1{
