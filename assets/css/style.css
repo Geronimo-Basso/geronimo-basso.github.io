@@ -101,6 +101,15 @@ svg{
     height: 2px;
     margin: 6px;
 }
+
+
+
+
+
+
+
+
+
 /*---------------------------------- Main section ----------------------- */
 
 main div.left{
@@ -120,12 +129,6 @@ main div button{
     color:black;
     background-color: white;
 }
-
-
-start{
-    margin-top: 1000px;
-}
-
 
 /*---------------------------------- Projects section ----------------------- */
 
@@ -162,7 +165,13 @@ start{
     fill: white;
 }
 
+.header-links{
+    display: none; /* Hide the menu by default */
+}
 
+#menulinks.active {
+    display: block; /* Show the menu when active class is applied */
+  }
 
 /*---------------------------------- Footer ----------------------- */
 footer{

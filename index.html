@@ -16,12 +16,12 @@
                     <span class="header-name-left">
                         <a href="#">Gerónimo Basso</a>
                     </span>
-                    <div class="header-menu">
+                    <div class="header-menu" onclick="toggleMenu()">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-                    <span class="header-links">
+                    <span id="menulinks"class="header-links">
                         <a href="#start">Home</a>
                         <a href="#about">About</a>
                         <a href="#projects">Projects</a>
@@ -36,6 +36,12 @@
                     <button id="lightbutton" onclick="lightMode()">Light mode</button>
                 <div>
                 <script>
+
+                    function toggleMenu() {
+                        var menu = document.getElementById("menulinks");
+                        menu.classList.toggle("active");
+                    }
+
                     function darkMode(){
                     document.documentElement.style.setProperty('--background-header', '#0D1117');
                         document.documentElement.style.setProperty('--background-body', '#0D1117');
