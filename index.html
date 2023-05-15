@@ -5,17 +5,16 @@
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
-                <base href="https://www.geronimo-basso.github.io/" target="_blank">
-
+                <!--<base href="https://www.geronimo-basso.github.io/" target="_blank"> -->
                 <title>Gerónimo Basso</title>
-                <link rel="stylesheet" href="assets/css/style.css">
                 <link rel="icon" type="image/x-icon" href="assets/images/programmer.png">
+                <link rel="stylesheet" href="assets/css/style.css">
             </head>
 
             <header class="header sticky">
                 <div class="header-div">
                     <span class="header-name-left">
-                        <a href="">Gerónimo Basso</a>
+                        <a href="#">Gerónimo Basso</a>
                     </span>
                     <div class="header-menu">
                         <span></span>
@@ -32,6 +31,27 @@
             </header>
 
             <main>
+                <div class="left">
+                    <button id="darkbutton" onclick="darkMode()">Dark mode</button>
+                    <button id="lightbutton" onclick="lightMode()">Light mode</button>
+                <div>
+                <script>
+                    function darkMode(){
+                    document.documentElement.style.setProperty('--background-header', '#000000');
+                        document.documentElement.style.setProperty('--background-body', '#0D1117');
+                        document.documentElement.style.setProperty('--elements-color', '#ffffff');
+                        document.documentElement.style.setProperty('--text-color', '#ffffff');
+                        document.documentElement.style.setProperty('--svg-color', '#ffffff');
+                    }
+
+                    function lightMode(){
+                        document.documentElement.style.setProperty('--background-header', '#ffffff');
+                        document.documentElement.style.setProperty('--background-body', '#ffffff');
+                        document.documentElement.style.setProperty('--elements-color', '#000000');
+                        document.documentElement.style.setProperty('--text-color', '#000000');
+                        document.documentElement.style.setProperty('--svg-color', '#000000');
+                    }
+                </script>
                 <hr id="start" class="first-hr">
                 <section id="home">
                     <img src="assets/images/doggy.png" alt="avatar photo">
