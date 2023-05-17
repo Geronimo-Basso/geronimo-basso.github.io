@@ -169,10 +169,6 @@ main div button{
     display: none; /* Hide the menu by default */
 }
 
-#menulinks.active {
-    display: block; /* Show the menu when active class is applied */
-  }
-
 /*---------------------------------- Footer ----------------------- */
 footer{
     background-color: var(--background-body);
