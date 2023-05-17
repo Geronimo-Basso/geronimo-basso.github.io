@@ -102,14 +102,6 @@ svg{
     margin: 6px;
 }
 
-
-
-
-
-
-
-
-
 /*---------------------------------- Main section ----------------------- */
 
 main div.left{
@@ -164,11 +156,6 @@ main div button{
 .button-container button svg{
     fill: white;
 }
-
-.header-links{
-    display: none; /* Hide the menu by default */
-}
-
 /*---------------------------------- Footer ----------------------- */
 footer{
     background-color: var(--background-body);
