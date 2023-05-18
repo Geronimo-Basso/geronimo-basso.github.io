@@ -6,25 +6,28 @@
     --text-color: #ffffff;
     --button-color: #9333FF;
     --svg-color: #ffffff;
+    --font-html: Garamond, serif;
+    --font-titles: Helvetica , sans-serif;
 }
 
 html{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--font-html);
     color: var(--text-color);
+    background-color: var(--background-body);
     margin: 0;
     padding: 0;
-    background-color: var(--background-body);
     text-align: center;
 }
 
 h1{
     color:var(--text-color);
+    font-family: var(--font-titles);
     text-decoration: none; /* remove the underline */
     font-size: 55px;
 }
 
 h2{
+    font-family: var(--font-titles);
     text-decoration: none; /* remove the underline */
     font-weight: 400;
     font-size: 22px;
