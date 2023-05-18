@@ -29,13 +29,11 @@ h1{
 h2{
     font-family: var(--font-titles);
     text-decoration: none; /* remove the underline */
-    font-weight: 400;
     font-size: 22px;
     line-height: 35px;
 }
 
 p {
-    font-weight: 400;
     font-size: 22px;
     line-height: 35px;
     margin-left: 50px;
@@ -130,14 +128,6 @@ main div button{
 .grid-container {
     display: grid;
     grid-template-columns: auto;
-}
-
-.grid-container h1{
-    font-size: 60px;
-}
-
-.grid-container h2{
-    font-size: 20px;
 }
 
 .button-container{
