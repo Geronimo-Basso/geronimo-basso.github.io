@@ -29,8 +29,8 @@ h1{
 h2{
     font-family: var(--font-titles);
     text-decoration: none; /* remove the underline */
-    font-size: 22px;
-    line-height: 35px;
+    font-weight: normal;
+    font-size: 28px;
 }
 
 p {
