@@ -1,5 +1,4 @@
 /*---------------------------------- General ----------------------- */
-@import url('https://fonts.googleapis.com/css2?family=San+Francisco&display=swap');
 
 :root {
     --background-header: #ffffff;
@@ -123,6 +122,11 @@ main div button{
 #lightbutton{
     color:black;
     background-color: white;
+}
+
+.profile-photo{
+    border-radius: 50%;
+    border:2px solid var(--elements-color);
 }
 
 /*---------------------------------- Projects section ----------------------- */
