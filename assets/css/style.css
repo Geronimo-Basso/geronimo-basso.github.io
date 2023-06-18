@@ -24,7 +24,7 @@ h1{
     color:var(--text-color);
     font-family: var(--font-titles);
     text-decoration: none; /* remove the underline */
-    font-size: 55px;
+    font-size: 50px;
 }
 
 h2{
@@ -157,10 +157,8 @@ main div button{
 /*---------------------------------- Footer ----------------------- */
 footer{
     background-color: var(--background-body);
-    padding: 10px;
     width: 100%;
 }
-
 
 footer div.last{
     display: flex;
@@ -180,6 +178,8 @@ footer div span{
     font-size: 22px;
 }
 
+footer a{
+}
 
 /*---------------------------------- Media queries ----------------------- */
   
