@@ -1,5 +1,4 @@
 /*---------------------------------- General ----------------------- */
-
 :root {
     --background-header: #ffffff;
     --background-body: #ffffff;
@@ -7,12 +6,12 @@
     --text-color: #000000;
     --button-color: #9333FF;
     --svg-color: #000000;
-    --font-html: Garamond, serif;
-    --font-titles: Helvetica , sans-serif;
+    --font-titles: 'Albert Sans' , serif;
+    --font-text: 'Lora', serif;
 }
 
 html{
-    font-family: var(--font-html);
+    font-family: var(--font-text);
     color: var(--text-color);
     background-color: var(--background-body);
     margin: 0;
@@ -20,18 +19,22 @@ html{
     text-align: center;
 }
 
-h1{
-    color:var(--text-color);
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-titles);
-    text-decoration: none; /* remove the underline */
-    font-size: 50px;
+    color:var(--text-color);
+    font-weight: 900;
+    text-decoration: none;
 }
 
-h2{
+h1 {
+    font-size: 50px;
+}
+ 
+
+header {
     font-family: var(--font-titles);
-    text-decoration: none; /* remove the underline */
-    font-weight: normal;
-    font-size: 28px;
+    font-weight: 900;
+    text-decoration: none;
 }
 
 p {
@@ -39,6 +42,11 @@ p {
     line-height: 35px;
     margin-left: 50px;
     margin-right: 50px;
+    font-weight: 100;
+}
+
+#false-h2 { 
+    font-size: 28px;
 }
 
 a {
@@ -106,8 +114,11 @@ svg{
 
 /*---------------------------------- Main section ----------------------- */
 
-main div.left{
-    margin: 30px;
+span#toggle-button{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    float: right;
 }
 
 main div button{
